@@ -26,7 +26,7 @@ public class EnnemyBulletScript : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (timer > 3)
+        if (timer > 2)
         {
             Destroy(gameObject);
         }
