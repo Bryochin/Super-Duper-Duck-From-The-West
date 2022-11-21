@@ -9,6 +9,7 @@ public class Controls : MonoBehaviour
     private float Move;
     public Rigidbody2D rb;
     public Animator animator;
+    private bool isJumping;
 
     Vector2 movement;
 
@@ -17,28 +18,18 @@ public class Controls : MonoBehaviour
     {
         Move = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(speed * Move, rb.velocity.y);
-
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !isJumping)
         {
             rb.AddForce(new Vector2(rb.velocity.x, jump));
+            isJumping = true;
         }
-
-        if (Move >= 0.1f)
+    }
+    
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
         {
-            animator.SetBool("Look Left", true);
-        }
-        else
-        {
-            animator.SetBool("Look Left", false);
-        }
-
-        if (Move <= -0.1f)
-        {
-            animator.SetBool("Look Right", true);
-        }
-        else
-        {
-            animator.SetBool("Look Right", false);
+            isJumping = false;
         }
     }
 }
