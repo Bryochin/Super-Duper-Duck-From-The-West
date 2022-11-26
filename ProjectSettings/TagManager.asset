@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Ennemy
   - Bullet
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -14,14 +15,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Background2
   - Player
   - Train
   - 
   - Background
   - Foreground
   - 
-  - 
+  - Rock
   - 
   - 
   - 

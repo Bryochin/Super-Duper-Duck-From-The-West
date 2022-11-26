@@ -29,7 +29,5 @@ public class Ennemy : MonoBehaviour
             TakeDamage(1);
             Destroy(collision.gameObject);
         }
-        
-       
     }
 }

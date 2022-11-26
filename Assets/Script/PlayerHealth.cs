@@ -28,5 +28,10 @@ public class PlayerHealth : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("Dead :]");
         }
+
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
     }
 }
