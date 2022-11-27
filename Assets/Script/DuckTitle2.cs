@@ -16,6 +16,6 @@ public class DuckTitle2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = Vector3.up * speed;
+        rb.velocity = Vector3.down * speed;
     }
 }
