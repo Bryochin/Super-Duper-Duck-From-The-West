@@ -15,7 +15,7 @@ public class FireBullets : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Fire", 0f, 2f);   
+        InvokeRepeating("Fire", 0f, 1f);   
     }
 
     private void Fire()
