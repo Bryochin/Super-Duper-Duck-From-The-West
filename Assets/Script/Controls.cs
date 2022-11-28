@@ -10,6 +10,7 @@ public class Controls : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     private bool isJumping;
+    public Animator anim;
 
     Vector2 movement;
 
@@ -23,6 +24,15 @@ public class Controls : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, jump));
             isJumping = true;
         }
+
+        if(Move >= 0.1f || Move <= -0.1f)
+        {
+            anim.SetBool("GoinRight", true);
+        }
+        else
+        {
+            anim.SetBool("GoinRight", false);
+        }
     }
     
     void OnCollisionEnter2D(Collision2D other)
@@ -30,6 +40,15 @@ public class Controls : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
+        }
+
+        if (other.gameObject.CompareTag("Ennemy"))
+        {
+            anim.SetBool("Hit", true);
+        }
+        else
+        {
+            anim.SetBool("Hit", false);
         }
     }
 }

@@ -1113,7 +1113,7 @@ GameObject:
   - component: {fileID: 124272987}
   m_Layer: 8
   m_Name: Rock (6)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1265,7 +1265,7 @@ GameObject:
   - component: {fileID: 177445479}
   m_Layer: 8
   m_Name: Rock (3)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1751,7 +1751,7 @@ GameObject:
   - component: {fileID: 214413238}
   m_Layer: 8
   m_Name: Rock
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3924,7 +3924,7 @@ GameObject:
   - component: {fileID: 480384375}
   m_Layer: 0
   m_Name: 'Enemies '
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4491,7 +4491,7 @@ GameObject:
   - component: {fileID: 557696101}
   m_Layer: 8
   m_Name: Rock (1)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4710,7 +4710,7 @@ GameObject:
   - component: {fileID: 590470448}
   m_Layer: 8
   m_Name: Rock (8)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5084,7 +5084,7 @@ GameObject:
   - component: {fileID: 641405375}
   m_Layer: 8
   m_Name: Rock (10)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5924,7 +5924,7 @@ GameObject:
   - component: {fileID: 742686670}
   m_Layer: 8
   m_Name: Rock (14)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7442,7 +7442,7 @@ GameObject:
   - component: {fileID: 1032452235}
   m_Layer: 8
   m_Name: Traintrain
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7805,6 +7805,7 @@ MonoBehaviour:
   jump: 800
   rb: {fileID: 1082716000}
   animator: {fileID: 1082716002}
+  anim: {fileID: 1082716002}
 --- !u!212 &1082715997
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7865,7 +7866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082715995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.94, y: -2.75, z: 0}
+  m_LocalPosition: {x: 2.14, y: -2.75, z: 0}
   m_LocalScale: {x: 2.6101873, y: 2.6101873, z: 2.6101873}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10384,7 +10385,7 @@ GameObject:
   - component: {fileID: 1308531250}
   m_Layer: 8
   m_Name: Rock (11)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10536,7 +10537,7 @@ GameObject:
   - component: {fileID: 1320232799}
   m_Layer: 8
   m_Name: Rock (12)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10688,7 +10689,7 @@ GameObject:
   - component: {fileID: 1337225449}
   m_Layer: 8
   m_Name: Rock (2)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12215,6 +12216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 1131030198}
+  WinUI: {fileID: 0}
   Player: {fileID: 1082715995}
 --- !u!4 &1543234776
 Transform:
@@ -12580,7 +12582,7 @@ GameObject:
   - component: {fileID: 1580603946}
   m_Layer: 8
   m_Name: Rock (5)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14936,7 +14938,7 @@ GameObject:
   - component: {fileID: 1885660013}
   m_Layer: 8
   m_Name: Rock (13)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15572,7 +15574,7 @@ GameObject:
   - component: {fileID: 1933800559}
   m_Layer: 8
   m_Name: Rock (4)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16346,7 +16348,7 @@ GameObject:
   - component: {fileID: 2003164226}
   m_Layer: 8
   m_Name: Rock (9)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16787,7 +16789,7 @@ GameObject:
   - component: {fileID: 2040529195}
   m_Layer: 8
   m_Name: Rock (7)
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17365,7 +17367,7 @@ GameObject:
   - component: {fileID: 2075269207}
   m_Layer: 0
   m_Name: Rocks
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

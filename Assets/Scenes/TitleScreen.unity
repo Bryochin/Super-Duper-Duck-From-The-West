@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b9b12b2136ebef469c6017f60251ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 5
   rb: {fileID: 1011642543}
 --- !u!61 &1011642542
 BoxCollider2D:
@@ -1508,6 +1508,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 414733752}
+    - target: {fileID: 420901514347252226, guid: 16087a9c97d56b84daf4f036afcba7a0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7489176076652669251, guid: 16087a9c97d56b84daf4f036afcba7a0, type: 3}
       propertyPath: m_Name
       value: LevelLoader
