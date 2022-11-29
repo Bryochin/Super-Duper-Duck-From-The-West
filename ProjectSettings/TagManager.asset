@@ -12,7 +12,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Camera
   - Water
   - UI
   - Background2
@@ -23,7 +23,7 @@ TagManager:
   - Foreground
   - 
   - Rock
-  - 
+  - Boss
   - 
   - 
   - 

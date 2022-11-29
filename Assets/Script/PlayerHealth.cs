@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public Image HealthBar;
     public GameManagerScript gameManager;
     private bool isDead;
+    public AudioSource audioPlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,14 @@ public class PlayerHealth : MonoBehaviour
         if (health > maxHealth)
         {
             health = maxHealth;
+        }
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Ennemy")
+        {
+            audioPlayer.Play();
         }
     }
 }
