@@ -10,6 +10,7 @@ public class PointAndShoot : MonoBehaviour
     public GameObject BulletStart;
     public float bulletSpeed = 60.0f;
     private Vector3 target;
+    public AudioSource audioPlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,7 @@ public class PointAndShoot : MonoBehaviour
             Vector2 direction = difference / distance;
             direction.Normalize();
             firebullet(direction, rotationZ);
+            audioPlayer.Play();
         }
     }
     void firebullet(Vector2 direction, float rotationZ)
